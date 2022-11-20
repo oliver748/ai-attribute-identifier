@@ -1,7 +1,7 @@
 # AI Attribute Identifier - will have more options than just race in the future!
-AI Attribute Identifier can be used to identify race of a specific person on an image using fastai's wonderful deep learning library. It can be trained on any dataset - 
+AI Attribute Identifier can be used to identify race of a specific person on an image using fastai's wonderful deep learning library. It can be trained on any dataset - though I didn't even use a dataset as you will see if you look at the code; instead I used thispersondoesnotexist.com for my "dataset" because I couldn't find a good enough dataset. It works brilliantly though :) 
 
-It's not capable of anything other than identifying race at the moment but I'm sure it'll change in the future when I work on this project more.
+It's not capable of anything other than identifying a person's race at the moment but I'm sure it'll change in the future when I work on this project more.
 Other attributes I'm gonna add in the future are things like emotion, age, eye color, bald/not bald, gender etc.
 
 It can identify a total of 6 races:

@@ -8,7 +8,7 @@ def label_func(x):
     return x.parent.name
 
 print("Waiting for Learner")
-learn_inf = load_learner("C:/Users/oliver/Desktop/race-identifier/export.pkl")
+learn_inf = load_learner("C:/Users/oliver/Desktop/ai-attribute-identifier/export.pkl")
 print("Loaded Learner")
 
 # Wait for me to push S to start.
