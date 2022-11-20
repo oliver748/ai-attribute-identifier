@@ -1,0 +1,7 @@
+fastai
+numpy
+win32api
+cv2
+keyboard
+pywin32
+requests
