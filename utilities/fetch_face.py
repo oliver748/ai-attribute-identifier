@@ -1,11 +1,14 @@
 # yes, this is prob slower than some other alternative but im lazy :)
 
-import requests, cv2
+import requests, cv2, os
 
 URL = "https://thispersondoesnotexist.com/image"
 HEADERS = {'User-Agent': 'Mozilla FireFox 3.0'}
 
 path = "C:/Users/oliver/Desktop/race-identifier"
+
+if not os.path.isdir(f"{path}/data"):
+    os.mkdir(f"{path}/data")
 
 def download_face():
     with open(f"{path}/temp/temp_img.jpg", 'wb') as write_face:
